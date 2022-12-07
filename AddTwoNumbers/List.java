@@ -88,13 +88,4 @@ public class List{
 	 * Description: writes the List on the terminal
 	 */
 	public void writeList(){
-		Node working = this.front; //stores the front Node from List
-		
-		//loops through each Node and prints data from each Node
-		while(working != this.front.pre){
-			System.out.print(working.getData() + " -> ");
-			working = working.next;
-		}
-		System.out.println(working.getData()); //prints data from last Node
-	}
-}
+		Node w\
